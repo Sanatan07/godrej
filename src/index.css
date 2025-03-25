@@ -6,9 +6,19 @@
   font-family: Arial, sans-serif;
 }
 
-body {
-  width: 100%;
+html, body {
+  width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 

@@ -6,7 +6,7 @@ const BlankPage = ({ title }) => {
   return (
     <div className="blank-page">
       <h1>{title}</h1>
-      <p>This page is currently under development.</p>
+      <p>This pae is currently under development.</p>
       <Link to="/" className="back-link">Back to Home</Link>
     </div>
   );

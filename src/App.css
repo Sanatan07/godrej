@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .logo {
   height: 6em;
-  padding: 1.5em;
+  padding: 0;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -34,7 +50,7 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 0;
 }
 
 .read-the-docs {

@@ -1,17 +1,23 @@
 import React from 'react';
-// import '../styles/Header.css';
+import logo1 from '../../public/godrejlogo.png';
+import logo2 from '../../public/logo2.png';
 
 const Header = () => {
   return (
-    <header className="main-header">
-      <div className="brand">
-        <h1 className="grande-title">#GRANDE</h1>
-        <h2 className="serene-subtitle">AT GODREJ SERENE</h2>
+    <header className="fixed top-0 left-0 right-0 z-20 pointer-events-none">
+      <div className="absolute top-4 left-4">
+        <img 
+          src={logo1} 
+          alt="Grande at Godrej Serene" 
+          className="h-16 w-auto object-contain"
+        />
       </div>
-      <div className="logo">
-        <span className="godrej">Godrej</span>
-        <span className="separator">|</span>
-        <span className="properties">PROPERTIES</span>
+      <div className="absolute top-4 right-4">
+        <img 
+          src={logo2} 
+          alt="Godrej Properties" 
+          className="h-16 w-auto object-contain"
+        />
       </div>
     </header>
   );
