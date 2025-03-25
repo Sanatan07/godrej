@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../components/Header';
-import NavigationMenu from '../components/NavigationMenu';
-import QRCode from '../components/QRCode';
+import Header from '../Components/Header';
+import NavigationMenu from '../Components/NavigationMenu';
+import QRCode from '../Components/QRCode';
 import ContactForm from '../Components/Contactform';
 import img1 from '../../public/godrej.jpg';
 
